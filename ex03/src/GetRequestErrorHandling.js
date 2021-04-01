@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class GetRequestErrorHandling extends Component {
+class GetRequestErrorHandling extends React.Component {
     constructor(props) {
         super(props);
         this.state = { totalReactPackages: null, errorMessage: null};
